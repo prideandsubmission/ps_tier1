@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	border: 0;
+	overflow-x: hidden;
+	width: 100vw;
+	display: relative;
+	background: whitesmoke;
+	color: grey;
+	 transition: all 350ms ease-in;
+	  -moz-transition: all 350ms ease-in;
+	  -webkit-transition: all 350ms ease-in;
+	  -o-transition: all 350ms ease-in;
+	  -ms-transition: all 350ms ease-in;
+}
+section{
+	position: absolute;
+	color: black;
+	top: 20%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: grey;
+}
+.button{
+	width: 10vw;
+	height: 5vh;
+	line-height: 5vh;
+  display: inline-block;
+  margin: 30px 40px;
+  background: white;
+  color: rgb(155, 155, 155);
+  border-radius: 30px;
+  padding: 1px 10px;
+  -webkit-box-shadow: 2px 2px 5px lightgrey;
+  -moz-box-shadow: 2px 2px 5px lightgrey;
+  -o-box-shadow: 2px 2px 5px lightgrey;
+  -ms-box-shadow: 2px 2px 5px lightgrey;
+  box-shadow: 2px 2px 5px lightgrey;
+  transition: all 250ms ease-in;
+  -moz-transition: all 250ms ease-in;
+  -webkit-transition: all 250ms ease-in;
+  -o-transition: all 250ms ease-in;
+  -ms-transition: all 250ms ease-in;
+  cursor: pointer;
+
+}
+.button:hover{
+  background: grey;
+  color: white;
+  -moz-transform: translateY(0.5vh);
+  -webkit-transform: translateY(0.5vh);
+  -o-transform: translateY(0.5vh);
+  -ms-transform: translateY(0.5vh);
+
+}
+input{
+	width: 20vw;
+	height: 5vh;
+	line-height: 5vh;
+  display: inline-block;
+  margin: 10px 40px;
+  background: white;
+  color: rgb(155, 155, 155);
+  border-radius: 10px;
+  padding: 1px 10px;
+  transition: all 250ms ease-in;
+  text-align: center;
+}
+header{
+	margin-top: 0;
+	text-align: center;
+}
+header h1{
+	margin-top: 0;
+	-webkit-text-shadow: 2px 2px 4px darkgrey;
+	-moz-text-shadow: 2px 2px 4px darkgrey;
+	text-shadow: 2px 2px 4px darkgrey;
+	background: lightgrey;
+	color: white;
+}
+main{
+	margin: 2% auto;
+	padding: 10px;
+	width: 70vw;
+	text-align: center;
+	display: none;
+}
+img{
+	width: 60vw;
+	height: auto;
+	-webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+ 	 box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+ 	 border-radius: 20px;
+}
+main div article{
+	margin: 3vh auto 7vh auto;
+	font-size: 30px;
+}
+main div article h6{
+line-height: 35px;
+margin: 0;
+padding: 0;
+}
+
